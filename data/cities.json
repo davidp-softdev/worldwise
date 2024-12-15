@@ -35,6 +35,54 @@
         "lng": 13.376933665713324
       },
       "id": 98443197
+    },
+    {
+      "cityName": "Brabant-le-Roi",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2024-12-15T05:44:50.026Z",
+      "notes": "sfsfdfdsfsdfds",
+      "position": {
+        "lat": "48.850258199721495",
+        "lng": "4.965820312500001"
+      },
+      "id": 98443198
+    },
+    {
+      "cityName": "Uzda",
+      "country": "Belarus",
+      "emoji": "🇧🇾",
+      "date": "2024-12-15T05:49:21.068Z",
+      "notes": "fsfsafasfasf",
+      "position": {
+        "lat": "53.51418452077113",
+        "lng": "27.224121093750004"
+      },
+      "id": 98443199
+    },
+    {
+      "cityName": "Vilhelmina",
+      "country": "Sweden",
+      "emoji": "🇸🇪",
+      "date": "2024-12-15T05:52:59.673Z",
+      "notes": "",
+      "position": {
+        "lat": "64.69910544204765",
+        "lng": "16.787109375000004"
+      },
+      "id": 98443200
+    },
+    {
+      "cityName": "Washington",
+      "country": "United States of America (the)",
+      "emoji": "🇺🇸",
+      "date": "2024-12-15T05:53:38.365Z",
+      "notes": "sfasfsffaf",
+      "position": {
+        "lat": "38.75408327579141",
+        "lng": "-76.99218750000001"
+      },
+      "id": 98443201
     }
   ]
 }
