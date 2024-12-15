@@ -30,13 +30,19 @@ function reducer(state, action) {
       return { ...state, isLoading: false, currentCity: action.payload };
 
     case "city/created":
-      return { ...state, isLoading: false, cities: [...state.cities, action.payload] };
+      return {
+        ...state,
+        isLoading: false,
+        cities: [...state.cities, action.payload],
+        currentCity: action.payload,
+      };
 
     case "city/deleted":
       return {
         ...state,
         isLoading: false,
         cities: state.cities.filter((city) => city.id !== action.payload),
+        currentCity: {},
       };
 
     case "rejected":
@@ -48,7 +54,7 @@ function reducer(state, action) {
 }
 
 function CitiesProvider({ children }) {
-  const [{ cities, isLoading, currentCity }, dispatch] = useReducer(reducer, initialState);
+  const [{ cities, isLoading, currentCity, error }, dispatch] = useReducer(reducer, initialState);
 
   // Load Data
   useEffect(function () {
@@ -66,6 +72,8 @@ function CitiesProvider({ children }) {
   }, []); // Load on Mount
 
   async function getCity(id) {
+    if (Number(id) === currentCity.id) return;
+
     dispatch({ type: "loading" });
     try {
       const res = await fetch(`${BASE_URL}/cities/${id}`);
@@ -105,7 +113,7 @@ function CitiesProvider({ children }) {
 
   return (
     <CitiesContext.Provider
-      value={{ cities, isLoading, currentCity, getCity, createCity, deleteCity }}
+      value={{ cities, isLoading, currentCity, error, getCity, createCity, deleteCity }}
     >
       {children}
     </CitiesContext.Provider>
