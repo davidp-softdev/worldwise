@@ -61,18 +61,6 @@
       "id": 98443200
     },
     {
-      "cityName": "Calamar",
-      "country": "Colombia",
-      "emoji": "🇨🇴",
-      "date": "2024-12-15T06:06:52.791Z",
-      "notes": "cacac",
-      "position": {
-        "lat": "1.4801816965527854",
-        "lng": "-72.47891552120194"
-      },
-      "id": 98443201
-    },
-    {
       "cityName": "Pinos",
       "country": "Mexico",
       "emoji": "🇲🇽",
@@ -95,6 +83,30 @@
         "lng": "119.70703125000001"
       },
       "id": 98443203
+    },
+    {
+      "cityName": "Lesja",
+      "country": "Norway",
+      "emoji": "🇳🇴",
+      "date": "2024-12-15T10:54:22.323Z",
+      "notes": "adaasdsd",
+      "position": {
+        "lat": "62.14497603754045",
+        "lng": "9.140625000000002"
+      },
+      "id": 98443204
+    },
+    {
+      "cityName": "Gold Coast",
+      "country": "Australia",
+      "emoji": "🇦🇺",
+      "date": "2024-12-15T10:55:07.657Z",
+      "notes": "assad",
+      "position": {
+        "lat": "-28.013801376380727",
+        "lng": "153.38012695312503"
+      },
+      "id": 98443205
     }
   ]
 }
