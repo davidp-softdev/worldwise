@@ -11,12 +11,14 @@ import BackButton from "./BackButton";
  */
 function City() {
   const { id } = useParams();
-  const { getCity, getCityWithDelay, currentCity, isLoading } = useCities();
+  // console.log("City-1-ParamID= ", id);
+  const { getCity, currentCity, isLoading } = useCities();
 
   // On Mount
   useEffect(
     function () {
-      getCityWithDelay(id);
+      // console.log("City-2-getCityID");
+      getCity(id);
     },
     [id]
   );
@@ -24,7 +26,7 @@ function City() {
   // const [searchParams, setSearchParams] = useSearchParams();
   // const lat = searchParams.get("lat");
   // const lng = searchParams.get("lng");
-
+  // console.log("City-3-CurrentCity= ", currentCity);
   const { cityName, emoji, date, notes } = currentCity;
 
   if (isLoading) return <Spinner />;
