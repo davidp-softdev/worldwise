@@ -37,18 +37,6 @@
       "id": 98443197
     },
     {
-      "cityName": "Brabant-le-Roi",
-      "country": "France",
-      "emoji": "🇫🇷",
-      "date": "2024-12-15T05:44:50.026Z",
-      "notes": "sfsfdfdsfsdfds",
-      "position": {
-        "lat": "48.850258199721495",
-        "lng": "4.965820312500001"
-      },
-      "id": 98443198
-    },
-    {
       "cityName": "Uzda",
       "country": "Belarus",
       "emoji": "🇧🇾",
@@ -61,28 +49,52 @@
       "id": 98443199
     },
     {
-      "cityName": "Vilhelmina",
-      "country": "Sweden",
-      "emoji": "🇸🇪",
-      "date": "2024-12-15T05:52:59.673Z",
-      "notes": "",
+      "cityName": "Sutton",
+      "country": "Australia",
+      "emoji": "🇦🇺",
+      "date": "2024-12-15T06:06:33.893Z",
+      "notes": "aaxax",
       "position": {
-        "lat": "64.69910544204765",
-        "lng": "16.787109375000004"
+        "lat": "-35.24561909420681",
+        "lng": "149.23828125000003"
       },
       "id": 98443200
     },
     {
-      "cityName": "Washington",
-      "country": "United States of America (the)",
-      "emoji": "🇺🇸",
-      "date": "2024-12-15T05:53:38.365Z",
-      "notes": "sfasfsffaf",
+      "cityName": "Calamar",
+      "country": "Colombia",
+      "emoji": "🇨🇴",
+      "date": "2024-12-15T06:06:52.791Z",
+      "notes": "cacac",
       "position": {
-        "lat": "38.75408327579141",
-        "lng": "-76.99218750000001"
+        "lat": "1.4801816965527854",
+        "lng": "-72.47891552120194"
       },
       "id": 98443201
+    },
+    {
+      "cityName": "Pinos",
+      "country": "Mexico",
+      "emoji": "🇲🇽",
+      "date": "2024-12-15T06:07:18.504Z",
+      "notes": "aada",
+      "position": {
+        "lat": "22.268764039073968",
+        "lng": "-101.77734375000001"
+      },
+      "id": 98443202
+    },
+    {
+      "cityName": "Lianyungang",
+      "country": "China",
+      "emoji": "🇨🇳",
+      "date": "2024-12-15T06:07:32.311Z",
+      "notes": "cscscs",
+      "position": {
+        "lat": "34.88593094075317",
+        "lng": "119.70703125000001"
+      },
+      "id": 98443203
     }
   ]
 }

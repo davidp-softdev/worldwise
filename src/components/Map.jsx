@@ -58,7 +58,7 @@ function Map() {
         // center={centerPoint}
         center={mapPosition}
         // center={[mapLat, mapLng]}
-        zoom={6}
+        zoom={7}
         scrollWheelZoom={true}
         className={styles.map}
       >
