@@ -37,76 +37,16 @@
       "id": 98443197
     },
     {
-      "cityName": "Uzda",
-      "country": "Belarus",
-      "emoji": "🇧🇾",
-      "date": "2024-12-15T05:49:21.068Z",
-      "notes": "fsfsafasfasf",
+      "cityName": "Paris",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2024-12-17T13:03:24.251Z",
+      "notes": "Amazing !!! 😍",
       "position": {
-        "lat": "53.51418452077113",
-        "lng": "27.224121093750004"
+        "lat": "48.879167148960214",
+        "lng": "2.3730468750000004"
       },
-      "id": 98443199
-    },
-    {
-      "cityName": "Sutton",
-      "country": "Australia",
-      "emoji": "🇦🇺",
-      "date": "2024-12-15T06:06:33.893Z",
-      "notes": "aaxax",
-      "position": {
-        "lat": "-35.24561909420681",
-        "lng": "149.23828125000003"
-      },
-      "id": 98443200
-    },
-    {
-      "cityName": "Pinos",
-      "country": "Mexico",
-      "emoji": "🇲🇽",
-      "date": "2024-12-15T06:07:18.504Z",
-      "notes": "aada",
-      "position": {
-        "lat": "22.268764039073968",
-        "lng": "-101.77734375000001"
-      },
-      "id": 98443202
-    },
-    {
-      "cityName": "Lianyungang",
-      "country": "China",
-      "emoji": "🇨🇳",
-      "date": "2024-12-15T06:07:32.311Z",
-      "notes": "cscscs",
-      "position": {
-        "lat": "34.88593094075317",
-        "lng": "119.70703125000001"
-      },
-      "id": 98443203
-    },
-    {
-      "cityName": "Lesja",
-      "country": "Norway",
-      "emoji": "🇳🇴",
-      "date": "2024-12-15T10:54:22.323Z",
-      "notes": "adaasdsd",
-      "position": {
-        "lat": "62.14497603754045",
-        "lng": "9.140625000000002"
-      },
-      "id": 98443204
-    },
-    {
-      "cityName": "Gold Coast",
-      "country": "Australia",
-      "emoji": "🇦🇺",
-      "date": "2024-12-15T10:55:07.657Z",
-      "notes": "assad",
-      "position": {
-        "lat": "-28.013801376380727",
-        "lng": "153.38012695312503"
-      },
-      "id": 98443205
+      "id": 98443198
     }
   ]
 }
